@@ -1,0 +1,26 @@
+{
+  "name": "hexagon-grid",
+  "version": "1.0.0",
+  "description": "A JavaScript library for drawing and interacting with hexagon grid.",
+  "main": "hexagon.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/DavidBM/Hexagon.js.git"
+  },
+  "keywords": [
+    "hexagon",
+    "grid",
+    "hexagon-grid",
+    "hexagon",
+    "grid"
+  ],
+  "author": "David Bonet Montes <webbonet@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/DavidBM/Hexagon.js/issues"
+  },
+  "homepage": "https://github.com/DavidBM/Hexagon.js"
+}
