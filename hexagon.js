@@ -73,8 +73,8 @@ HexagonGrid.prototype.getRelativeCanvasOffset = function() {
 	var layoutElement = this.canvas;
 	if (layoutElement.offsetParent) {
 		do {
-			x += layoutElement.offsetLeft;
-			y += layoutElement.offsetTop;
+			x += layoutElement.offsetLeft - layoutElement.scrollLeft;
+			y += layoutElement.offsetTop - layoutElement.scrollTop;
 			layoutElement = layoutElement.offsetParent;
 		} while (layoutElement);
 		return {
